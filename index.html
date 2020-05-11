@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <title> 
+		Íñigo Clemente Arnáiz
+    </title>
+    
+    <body>
+        <header class="header">
+            <background= "#333">
+            </background>
+            <div class= "container">
+            <font class="p" color="white"> &copy; íñigo  </font>
+            
+            </div>
+                 
+        </header>
+        </body>        
+    <head> 
+    
+        <meta charset= "UTF-8">
+            
+            
+    </head>
+            
+    
+    <style> 
+        body { 
+		  background-image: url(img163.jpg);
+		  background-position: center center;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+		  background-color: #FDFEFE;
+           #E91E63  
+
+        } 
+		
+		#next {
+			
+			margin:5px;
+			margin-right:60px;
+			margin-left:40%;
+			margin-top:500px;
+			color:#FFFB00;
+			width: 100px;
+			height: 30px;
+			background-color: rgba(155, 155, 155, 0.7);
+			background-repeat:no-repeat;
+			cursor:pointer;
+			overflow: hidden;
+			border-style: solid;
+			border-color: #FFFB00;
+			top: 80%;
+			left: 45%;
+			float: left;
+
+		}
+		
+		#play {
+			margin:5px;
+			color:#FFFB00;
+			width: 50px;
+			height: 30px;
+			background-color: rgba(155, 155, 155, 0.7);
+			background-repeat:no-repeat;
+			cursor:pointer;
+			overflow: hidden;
+			border-style: solid;
+			border-color: #FFFB00;
+			margin-top:500px;
+			float: left;
+		}
+		
+		#stop {
+			margin:5px;
+			color:#FFFB00;
+			width: 50px;
+			height: 30px;
+			background-color: rgba(155, 155, 155, 0.7);
+			background-repeat:no-repeat;
+			cursor:pointer;
+			overflow: hidden;
+			border-style: solid;
+			border-color: #FFFB00;
+			margin-top:500px;
+			float: left;
+
+		}
+    </style> 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+    <script>
+	
+        $(document).ready(function() { 
+            $("#next").click(function() { 
+                var fotos = ["inigoclementearnaiz-ARTE-01.jpg", "inigoclementearnaiz-ARTE-02.jpg", "inigoclementearnaiz-ARTE-03.jpg", "inigoclementearnaiz-ARTE-04.jpg", "inigoclementearnaiz-ARTE-05.jpg", "inigoclementearnaiz-ARTE-06.jpg", "inigoclementearnaiz-ARTE-07.jpg", "inigoclementearnaiz-ARTE-08.jpg", "inigoclementearnaiz-ARTE-09.jpg", "inigoclementearnaiz-ARTE-10.jpg", "inigoclementearnaiz-ARTE-11.jpg", "inigoclementearnaiz-ARTE-12.jpg", "inigoclementearnaiz-ARTE-13.jpg", "inigoclementearnaiz-ARTE-14.jpg", "inigoclementearnaiz-ARTE-15.jpg", "inigoclementearnaiz-ARTE-16.jpg", "inigoclementearnaiz-ARTE-17.jpg", "inigoclementearnaiz-ARTE-18.jpg", "inigoclementearnaiz-ARTE-19.jpg", "inigoclementearnaiz-ARTE-20.jpg", "inigoclementearnaiz-ARTE-21.jpg", "inigoclementearnaiz-ARTE-22.jpg", "inigoclementearnaiz-ARTE-23.jpg", "inigoclementearnaiz-ARTE-24.jpg", "inigoclementearnaiz-ARTE-25.jpg", "inigoclementearnaiz-ARTE-26.jpg", "inigoclementearnaiz-ARTE-27.jpg", "inigoclementearnaiz-ARTE-28.jpg", "inigoclementearnaiz-ARTE-29.jpg", "inigoclementearnaiz-ARTE-30.jpg", "inigoclementearnaiz-ARTE-31.jpg", "inigoclementearnaiz-ARTE-32.jpg", "inigoclementearnaiz-ARTE-33.jpg", "inigoclementearnaiz-ARTE-34.jpg", "inigoclementearnaiz-ARTE-35.jpg", "inigoclementearnaiz-ARTE-36.jpg", "inigoclementearnaiz-ARTE-37.jpg", "inigoclementearnaiz-ARTE-38.jpg", "inigoclementearnaiz-ARTE-39.jpg", "inigoclementearnaiz-ARTE-40.jpg", "inigoclementearnaiz-ARTE-41.jpg", "inigoclementearnaiz-ARTE-42.jpg", "inigoclementearnaiz-ARTE-43.jpg", "inigoclementearnaiz-ARTE-44.jpg", "inigoclementearnaiz-ARTE-45.jpg", "inigoclementearnaiz-ARTE-46.jpg", "inigoclementearnaiz-ARTE-47.jpg", "inigoclementearnaiz-ARTE-48.jpg", "inigoclementearnaiz-ARTE-49.jpg", "inigoclementearnaiz-ARTE-50.jpg", "inigoclementearnaiz-ARTE-51.jpg", "inigoclementearnaiz-ARTE-52.jpg", "inigoclementearnaiz-ARTE-53.jpg", "inigoclementearnaiz-ARTE-54.jpg", "inigoclementearnaiz-ARTE-55.jpg", "inigoclementearnaiz-ARTE-56.jpg", "inigoclementearnaiz-ARTE-57.jpg", "inigoclementearnaiz-ARTE-58.jpg", "inigoclementearnaiz-ARTE-59.jpg", "inigoclementearnaiz-ARTE-60.jpg", "inigoclementearnaiz-ARTE-61.jpg", "inigoclementearnaiz-ARTE-62.jpg", "inigoclementearnaiz-ARTE-63.jpg", "inigoclementearnaiz-ARTE-64.jpg", "inigoclementearnaiz-ARTE-65.jpg", "inigoclementearnaiz-ARTE-66.jpg", "inigoclementearnaiz-ARTE-67.jpg", "inigoclementearnaiz-ARTE-68.jpg", "inigoclementearnaiz-ARTE-69.jpg", "inigoclementearnaiz-ARTE-70.jpg", "inigoclementearnaiz-ARTE-71.jpg", "inigoclementearnaiz-ARTE-72.jpg", "inigoclementearnaiz-ARTE-73.jpg", "inigoclementearnaiz-ARTE-74.jpg", "inigoclementearnaiz-ARTE-75.jpg", "inigoclementearnaiz-ARTE-76.jpg", "inigoclementearnaiz-ARTE-77.jpg", "inigoclementearnaiz-ARTE-78.jpg", "inigoclementearnaiz-ARTE-79.jpg", "inigoclementearnaiz-ARTE-80.jpg", "inigoclementearnaiz-ARTE-81.jpg", "inigoclementearnaiz-ARTE-82.jpg", "inigoclementearnaiz-ARTE-83.jpg", "inigoclementearnaiz-ARTE-84.jpg", "inigoclementearnaiz-ARTE-85.jpg", "inigoclementearnaiz-ARTE-86.jpg", "inigoclementearnaiz-ARTE-87.jpg", "inigoclementearnaiz-ARTE-88.jpg", "inigoclementearnaiz-ARTE-89.jpg", "inigoclementearnaiz-ARTE-90.jpg", "inigoclementearnaiz-ARTE-91.jpg", "inigoclementearnaiz-ARTE-92.jpg", "inigoclementearnaiz-ARTE-93.jpg", "inigoclementearnaiz-ARTE-94.jpg", "inigoclementearnaiz-ARTE-95.jpg", "inigoclementearnaiz-ARTE-96.jpg", "inigoclementearnaiz-ARTE-97.jpg", "inigoclementearnaiz-ARTE-98.jpg", "inigoclementearnaiz-ARTE-99.jpg", "inigoclementearnaiz-ARTE-100.jpg", "inigoclementearnaiz-ARTE-101.jpg", "inigoclementearnaiz-ARTE-102.jpg", "inigoclementearnaiz-ARTE-103.jpg", "inigoclementearnaiz-ARTE-104.jpg", "inigoclementearnaiz-ARTE-105.jpg", "inigoclementearnaiz-ARTE-106.jpg", "inigoclementearnaiz-ARTE-107.jpg", "inigoclementearnaiz-ARTE-108.jpg", "inigoclementearnaiz-ARTE-109.jpg", "inigoclementearnaiz-ARTE-110.jpg", "inigoclementearnaiz-ARTE-111.jpg", "inigoclementearnaiz-ARTE-112.jpg", "inigoclementearnaiz-ARTE-113.jpg", "inigoclementearnaiz-ARTE-114.jpg", "inigoclementearnaiz-ARTE-115.jpg", "inigoclementearnaiz-ARTE-116.jpg", "inigoclementearnaiz-ARTE-117.jpg", "inigoclementearnaiz-ARTE-118.jpg", "inigoclementearnaiz-ARTE-119.jpg", "inigoclementearnaiz-ARTE-120.jpg", "inigoclementearnaiz-ARTE-121.jpg", "inigoclementearnaiz-ARTE-121.jpg", "inigoclementearnaiz-ARTE-107.jpg", "inigoclementearnaiz-ARTE-123.jpg"];
+				var randomfotos = fotos[Math.floor(Math.random() * fotos.length)];
+                $("body").css("background-image", "url(" + randomfotos + ")");			
+            }); 
+        });
+		
+		var t;
+		function presentar(){
+				var fotos = ["inigoclementearnaiz-ARTE-01.jpg", "inigoclementearnaiz-ARTE-02.jpg", "inigoclementearnaiz-ARTE-03.jpg", "inigoclementearnaiz-ARTE-04.jpg", "inigoclementearnaiz-ARTE-05.jpg", "inigoclementearnaiz-ARTE-06.jpg", "inigoclementearnaiz-ARTE-07.jpg", "inigoclementearnaiz-ARTE-08.jpg", "inigoclementearnaiz-ARTE-09.jpg", "inigoclementearnaiz-ARTE-10.jpg", "inigoclementearnaiz-ARTE-11.jpg", "inigoclementearnaiz-ARTE-12.jpg", "inigoclementearnaiz-ARTE-13.jpg", "inigoclementearnaiz-ARTE-14.jpg", "inigoclementearnaiz-ARTE-15.jpg", "inigoclementearnaiz-ARTE-16.jpg", "inigoclementearnaiz-ARTE-17.jpg", "inigoclementearnaiz-ARTE-18.jpg", "inigoclementearnaiz-ARTE-19.jpg", "inigoclementearnaiz-ARTE-20.jpg", "inigoclementearnaiz-ARTE-21.jpg", "inigoclementearnaiz-ARTE-22.jpg", "inigoclementearnaiz-ARTE-23.jpg", "inigoclementearnaiz-ARTE-24.jpg", "inigoclementearnaiz-ARTE-25.jpg", "inigoclementearnaiz-ARTE-26.jpg", "inigoclementearnaiz-ARTE-27.jpg", "inigoclementearnaiz-ARTE-28.jpg", "inigoclementearnaiz-ARTE-29.jpg", "inigoclementearnaiz-ARTE-30.jpg", "inigoclementearnaiz-ARTE-31.jpg", "inigoclementearnaiz-ARTE-32.jpg", "inigoclementearnaiz-ARTE-33.jpg", "inigoclementearnaiz-ARTE-34.jpg", "inigoclementearnaiz-ARTE-35.jpg", "inigoclementearnaiz-ARTE-36.jpg", "inigoclementearnaiz-ARTE-37.jpg", "inigoclementearnaiz-ARTE-38.jpg", "inigoclementearnaiz-ARTE-39.jpg", "inigoclementearnaiz-ARTE-40.jpg", "inigoclementearnaiz-ARTE-41.jpg", "inigoclementearnaiz-ARTE-42.jpg", "inigoclementearnaiz-ARTE-43.jpg", "inigoclementearnaiz-ARTE-44.jpg", "inigoclementearnaiz-ARTE-45.jpg", "inigoclementearnaiz-ARTE-46.jpg", "inigoclementearnaiz-ARTE-47.jpg", "inigoclementearnaiz-ARTE-48.jpg", "inigoclementearnaiz-ARTE-49.jpg", "inigoclementearnaiz-ARTE-50.jpg", "inigoclementearnaiz-ARTE-51.jpg", "inigoclementearnaiz-ARTE-52.jpg", "inigoclementearnaiz-ARTE-53.jpg", "inigoclementearnaiz-ARTE-54.jpg", "inigoclementearnaiz-ARTE-55.jpg", "inigoclementearnaiz-ARTE-56.jpg", "inigoclementearnaiz-ARTE-57.jpg", "inigoclementearnaiz-ARTE-58.jpg", "inigoclementearnaiz-ARTE-59.jpg", "inigoclementearnaiz-ARTE-60.jpg", "inigoclementearnaiz-ARTE-61.jpg", "inigoclementearnaiz-ARTE-62.jpg", "inigoclementearnaiz-ARTE-63.jpg", "inigoclementearnaiz-ARTE-64.jpg", "inigoclementearnaiz-ARTE-65.jpg", "inigoclementearnaiz-ARTE-66.jpg", "inigoclementearnaiz-ARTE-67.jpg", "inigoclementearnaiz-ARTE-68.jpg", "inigoclementearnaiz-ARTE-69.jpg", "inigoclementearnaiz-ARTE-70.jpg", "inigoclementearnaiz-ARTE-71.jpg", "inigoclementearnaiz-ARTE-72.jpg", "inigoclementearnaiz-ARTE-73.jpg", "inigoclementearnaiz-ARTE-74.jpg", "inigoclementearnaiz-ARTE-75.jpg", "inigoclementearnaiz-ARTE-76.jpg", "inigoclementearnaiz-ARTE-77.jpg", "inigoclementearnaiz-ARTE-78.jpg", "inigoclementearnaiz-ARTE-79.jpg", "inigoclementearnaiz-ARTE-80.jpg", "inigoclementearnaiz-ARTE-81.jpg", "inigoclementearnaiz-ARTE-82.jpg", "inigoclementearnaiz-ARTE-83.jpg", "inigoclementearnaiz-ARTE-84.jpg", "inigoclementearnaiz-ARTE-85.jpg", "inigoclementearnaiz-ARTE-86.jpg", "inigoclementearnaiz-ARTE-87.jpg", "inigoclementearnaiz-ARTE-88.jpg", "inigoclementearnaiz-ARTE-89.jpg", "inigoclementearnaiz-ARTE-90.jpg", "inigoclementearnaiz-ARTE-91.jpg", "inigoclementearnaiz-ARTE-92.jpg", "inigoclementearnaiz-ARTE-93.jpg", "inigoclementearnaiz-ARTE-94.jpg", "inigoclementearnaiz-ARTE-95.jpg", "inigoclementearnaiz-ARTE-96.jpg", "inigoclementearnaiz-ARTE-97.jpg", "inigoclementearnaiz-ARTE-98.jpg", "inigoclementearnaiz-ARTE-99.jpg", "inigoclementearnaiz-ARTE-100.jpg", "inigoclementearnaiz-ARTE-101.jpg", "inigoclementearnaiz-ARTE-102.jpg", "inigoclementearnaiz-ARTE-103.jpg", "inigoclementearnaiz-ARTE-104.jpg", "inigoclementearnaiz-ARTE-105.jpg", "inigoclementearnaiz-ARTE-106.jpg", "inigoclementearnaiz-ARTE-107.jpg", "inigoclementearnaiz-ARTE-108.jpg", "inigoclementearnaiz-ARTE-109.jpg", "inigoclementearnaiz-ARTE-110.jpg", "inigoclementearnaiz-ARTE-111.jpg", "inigoclementearnaiz-ARTE-112.jpg", "inigoclementearnaiz-ARTE-113.jpg", "inigoclementearnaiz-ARTE-114.jpg", "inigoclementearnaiz-ARTE-115.jpg", "inigoclementearnaiz-ARTE-116.jpg", "inigoclementearnaiz-ARTE-117.jpg", "inigoclementearnaiz-ARTE-118.jpg", "inigoclementearnaiz-ARTE-119.jpg", "inigoclementearnaiz-ARTE-120.jpg", "inigoclementearnaiz-ARTE-121.jpg", "inigoclementearnaiz-ARTE-121.jpg", "inigoclementearnaiz-ARTE-107.jpg", "inigoclementearnaiz-ARTE-123.jpg"];
+				var randomfotos = fotos[Math.floor(Math.random() * fotos.length)];	
+		
+				$("body").css("background-image", "url(" + randomfotos + ")");
+				
+				t = setTimeout(presentar, 3000);
+				//bug t = setInterval(presentar, 3000); descomentar y comentar el otro "t = setTimeout(presentar, 3000);"
+        };
+		function parar(){
+				
+				clearTimeout(t);
+			
+        };
+		
+		
+    </script> 
+</head> 
+  
+<body> 
+
+    <center> 
+    <p> 
+        
+        <button id="next" type="button"> 
+           NEXT
+		
+        </button>
+		<button id="play" type="button" onclick="presentar()"> 
+           PLAY
+		
+        </button>
+		
+		<button id="stop" type="button" onclick="parar()"> 
+           STOP
+		
+        </button>
+		
+    </p> 
+    </center> 
+</body>
+    
+        
+     <font class="highlight" color="yellow" face="raleway" >  <em> &copy; ///// íñigo Clemente Arnáiz ///// more info. PROYECTS, ARCHITECTURE, ART or interested on BOOK sale //// email: iclementearnaiz@gmail.com" </em>
+        <meta charset= "UTF-8">
+       
+
+        
+    
+        
+ 
+  
